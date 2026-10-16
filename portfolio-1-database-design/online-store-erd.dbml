@@ -1,0 +1,62 @@
+Table customers {
+  customer_id integer [pk, increment]
+  full_name varchar(100) [not null]
+  email varchar(255) [not null, unique]
+  phone varchar(20)
+}
+
+Table products {
+  product_id integer [pk, increment]
+  product_name varchar(150) [not null]
+  category varchar(50)
+  unit_price decimal(10,2) [not null]
+}
+
+Table orders {
+  order_id integer [pk, increment]
+  customer_id integer [not null]
+  order_date timestamp [not null]
+  order_status varchar(30) [not null]
+}
+
+Ref: orders.customer_id > customers.customer_id
+
+Table order_items {
+  order_item_id integer [pk, increment]
+  order_id integer [not null]
+  product_id integer [not null]
+  quantity integer [not null]
+  unit_price_at_order decimal(10,2) [not null]
+}
+
+Table payments {
+  payment_id integer [pk, increment]
+  order_id integer [not null]
+  amount decimal(10,2) [not null]
+  payment_method varchar(30)
+  payment_status varchar(20) [not null]
+  attempted_at timestamp [not null]
+}
+
+Table inventory {
+  inventory_id integer [pk, increment]
+  product_id integer [not null, unique]
+  quantity_on_hand integer [not null]
+  quantity_allocated integer [not null]
+  last_updated timestamp
+}
+
+Table deliveries {
+  delivery_id integer [pk, increment]
+  order_id integer [not null, unique]
+  delivery_address varchar(255) [not null]
+  delivery_status varchar(30) [not null]
+  dispatched_at timestamp
+  delivered_at timestamp
+}
+
+Ref: order_items.order_id > orders.order_id
+Ref: order_items.product_id > products.product_id
+Ref: payments.order_id > orders.order_id
+Ref: inventory.product_id - products.product_id
+Ref: deliveries.order_id - orders.order_id
