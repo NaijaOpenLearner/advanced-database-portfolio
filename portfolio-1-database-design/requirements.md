@@ -1,7 +1,7 @@
 # NaijaOpenLearner Online Store
 ## Business Requirements and Rules
 
-**Course:** MIT8103 – Advanced Database Systems
+**Course:** MIT8103 - Advanced Database Systems
 
 **Portfolio:** 1 - Database Design and Modelling
 
