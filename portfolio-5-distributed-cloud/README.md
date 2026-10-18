@@ -185,4 +185,8 @@ Comparing primary and replica results also reinforced the importance of verifyin
 
 ## 13. AI Assistance Declaration
 
-AI assistance was used for learning support, explaining database concepts, troubleshooting practical steps, organising technical documentation and refining written explanations.
+**AI Tool Used:** ChatGPT (OpenAI).
+
+**Purpose of Use:** ChatGPT was used as a learning assistant to explain advanced database concepts, suggest and explain SQL queries, troubleshoot practical exercises, and assist with drafting, structuring and editing the portfolio documentation.
+
+**Verification and Individual Work:** I executed the practical SQL queries using Neon PostgreSQL, examined the returned results, captured screenshots and verified the differences between the primary database, test branch and read-replica compute. I also reviewed the explanations and documentation against my practical observations, corrected errors encountered during testing and checked that the supporting evidence was accessible through GitHub.
