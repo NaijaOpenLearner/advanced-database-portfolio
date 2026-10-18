@@ -63,7 +63,7 @@ Portfolio 1: Database Design and Modelling
 - Each product is intended to have one inventory record.
 - Each order may have at most one delivery record.
 
-## 3. Proposed Data Integrity Constraints
+## 3. Implemented Data Integrity Constraints
 
 The database design should enforce:
 
@@ -77,5 +77,4 @@ The database design should enforce:
 - No more than one inventory record per product.
 - No more than one delivery record per order.
 
-These constraints will be checked and implemented in SQL
-during the database implementation stage.
+These constraints have been implemented in PostgreSQL and tested using SQL statements and supporting screenshots. The implementation includes primary keys, foreign keys, uniqueness constraints, CHECK constraints and permitted status values.
