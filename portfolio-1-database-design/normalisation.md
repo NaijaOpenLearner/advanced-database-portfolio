@@ -70,6 +70,10 @@ The `unit_price_at_order` attribute remains in `order_items` because it records 
 
 ## 6. Conclusion
 
-The proposed schema is designed to satisfy First, Second and Third Normal Forms by storing atomic values, separating facts according to their dependencies and avoiding unnecessary duplication.
+The seven-table PostgreSQL database was designed to satisfy First, Second and Third Normal Forms by storing atomic values, separating data according to their dependencies and avoiding unnecessary duplication.
 
-Normalisation should help reduce update anomalies, improve data consistency and simplify maintenance. The final implementation will be checked against these principles, including its actual keys and constraints.
+Normalisation helps reduce insertion, update and deletion anomalies, improve data consistency and simplify database maintenance.
+
+The implemented schema was reviewed against the Entity-Relationship diagram and normalisation principles. Primary keys, foreign keys, uniqueness constraints and CHECK constraints were also implemented to help maintain data integrity.
+
+The separation of customers, products, orders, order items, payments, inventory and deliveries provides a structured relational foundation for NaijaOpenLearner Online Store.
