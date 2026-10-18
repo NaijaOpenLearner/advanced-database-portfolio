@@ -71,3 +71,8 @@ The project will focus on customers, products, orders, order items, payment atte
 Employee payroll, live payment gateway integration, website development and countdown-based stock reservations are excluded from the initial implementation.
 
 The project will use fictional sample data for learning, implementation and testing.
+
+### 7. Implementation Boundaries
+The PostgreSQL implementation enforces key data-integrity rules through primary keys, foreign keys, uniqueness constraints and CHECK constraints.
+Business workflows such as confirming payment before stock allocation, ensuring orders contain at least one item, and verifying payment and inventory before fulfilment require additional application or transaction logic. These workflows should not be interpreted as automatically implemented by the table definitions alone.
+Countdown-based cart reservations, split deliveries and live payment gateway integration remain outside the initial project scope.
