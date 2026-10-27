@@ -1,4 +1,4 @@
-# MIT8103 – Advanced Database Systems Practical Portfolio
+# MIT8103 - Advanced Database Systems Practical Portfolio
 
 **Institution:** MIVA Open University  
 **Course:** MIT8103 - Advanced Database Systems  
@@ -20,11 +20,11 @@ The portfolio is divided into five parts covering relational database design, SQ
 
 | Portfolio | Focus | Practical Work |
 |---|---|---|
-| [Portfolio 1 – Database Design](portfolio-1-database-design/) | Requirements, data modelling and relational design | Business requirements, ER diagram, seven PostgreSQL tables, normalisation, SQL scripts and constraint tests |
-| [Portfolio 2 – Query Processing and Optimisation](portfolio-2-query-optimisation/) | SQL queries and performance tuning | Sales reporting, execution plans, a 100,000-record fictional benchmark, B-tree indexing and performance analysis |
-| [Portfolio 3 – Transactions and Concurrency](portfolio-3-transactions-concurrency/) | Transaction integrity and concurrent access | COMMIT, ROLLBACK, conditional stock reservations, READ COMMITTED isolation and two-session row-lock tests |
-| [Portfolio 4 – NoSQL and Advanced Data Models](portfolio-4-nosql/) | MongoDB document databases | Product documents, embedded attributes, arrays, CRUD operations and PostgreSQL versus MongoDB comparison |
-| [Portfolio 5 – Distributed and Cloud Databases](portfolio-5-distributed-cloud/) | Cloud database architecture and replication | Neon PostgreSQL branching, isolated test environments, read-replica behaviour and distributed database analysis |
+| [Portfolio 1 - Database Design](portfolio-1-database-design/) | Requirements, data modelling and relational design | Business requirements, ER diagram, seven PostgreSQL tables, normalisation, SQL scripts and constraint tests |
+| [Portfolio 2 - Query Processing and Optimisation](portfolio-2-query-optimisation/) | SQL queries and performance tuning | Sales reporting, execution plans, a 100,000-record fictional benchmark, B-tree indexing and performance analysis |
+| [Portfolio 3 - Transactions and Concurrency](portfolio-3-transactions-concurrency/) | Transaction integrity and concurrent access | COMMIT, ROLLBACK, conditional stock reservations, READ COMMITTED isolation and two-session row-lock tests |
+| [Portfolio 4 - NoSQL and Advanced Data Models](portfolio-4-nosql/) | MongoDB document databases | Product documents, embedded attributes, arrays, CRUD operations and PostgreSQL versus MongoDB comparison |
+| [Portfolio 5 - Distributed and Cloud Databases](portfolio-5-distributed-cloud/) | Cloud database architecture and replication | Neon PostgreSQL branching, isolated test environments, read-replica behaviour and distributed database analysis |
 
 Each portfolio folder contains its own README and supporting materials, including SQL files or practical documentation, screenshots, observations and learning reflections.
 
@@ -70,7 +70,7 @@ Some scripts change database records or depend on a specific transaction state. 
 
 ## 7. References
 
-- MIVA Open University. *MIT8103 – Advanced Database Systems*. Course materials.
+- MIVA Open University. *MIT8103 - Advanced Database Systems*. Course materials.
 - PostgreSQL Global Development Group. [PostgreSQL Documentation](https://www.postgresql.org/docs/current/).
 - MongoDB. [MongoDB Manual](https://www.mongodb.com/docs/manual/).
 - Neon. [Neon Documentation](https://neon.com/docs).
