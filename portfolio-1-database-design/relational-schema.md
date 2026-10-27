@@ -1,54 +1,54 @@
-# Relational Schema — NaijaOpenLearner Online Store
+# Relational Schema - NaijaOpenLearner Online Store
 
-Course: MIT8103 — Advanced Database Systems
+Course: MIT8103 - Advanced Database Systems
 
 Portfolio 1: Database Design and Modelling
 
 ## 1. Relational Tables
 
 ### CUSTOMERS
-- customer_id — Primary Key (PK)
+- customer_id - Primary Key (PK)
 - full_name
-- email — UNIQUE, NOT NULL
+- email - UNIQUE, NOT NULL
 - phone
 
 ### PRODUCTS
-- product_id — Primary Key (PK)
+- product_id - Primary Key (PK)
 - product_name
 - category
 - unit_price
 
 ### ORDERS
-- order_id — Primary Key (PK)
-- customer_id — Foreign Key (FK) referencing CUSTOMERS
+- order_id - Primary Key (PK)
+- customer_id - Foreign Key (FK) referencing CUSTOMERS
 - order_date
 - order_status
 
 ### ORDER_ITEMS
-- order_item_id — Primary Key (PK)
-- order_id — Foreign Key (FK) referencing ORDERS
-- product_id — Foreign Key (FK) referencing PRODUCTS
+- order_item_id - Primary Key (PK)
+- order_id - Foreign Key (FK) referencing ORDERS
+- product_id - Foreign Key (FK) referencing PRODUCTS
 - quantity
 - unit_price_at_order
 
 ### PAYMENTS
-- payment_id — Primary Key (PK)
-- order_id — Foreign Key (FK) referencing ORDERS
+- payment_id - Primary Key (PK)
+- order_id - Foreign Key (FK) referencing ORDERS
 - amount
 - payment_method
 - payment_status
 - attempted_at
 
 ### INVENTORY
-- inventory_id — Primary Key (PK)
-- product_id — Foreign Key (FK) referencing PRODUCTS; UNIQUE
+- inventory_id - Primary Key (PK)
+- product_id - Foreign Key (FK) referencing PRODUCTS; UNIQUE
 - quantity_on_hand
 - quantity_allocated
 - last_updated
 
 ### DELIVERIES
-- delivery_id — Primary Key (PK)
-- order_id — Foreign Key (FK) referencing ORDERS; UNIQUE
+- delivery_id - Primary Key (PK)
+- order_id - Foreign Key (FK) referencing ORDERS; UNIQUE
 - delivery_address
 - delivery_status
 - dispatched_at
