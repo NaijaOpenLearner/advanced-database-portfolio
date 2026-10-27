@@ -1,7 +1,7 @@
 
 # Portfolio 2: Query Processing and Optimisation
 
-**Course:** MIT8103 – Advanced Database Systems
+**Course:** MIT8103 - Advanced Database Systems
 
 **Case Study:** NaijaOpenLearner Online Store
 
@@ -9,7 +9,7 @@
 
 **Database Platform:** Neon PostgreSQL
 
-**Status:** In Progress – Practical exercises completed; documentation under review.
+**Status:** In Progress - Practical exercises completed; documentation under review.
 
 ## 1. Portfolio Overview
 
