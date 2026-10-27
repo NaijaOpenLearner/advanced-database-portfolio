@@ -1,7 +1,7 @@
 
 # Portfolio 2: Query Performance Analysis
 
-Course: MIT8103 – Advanced Database Systems
+Course: MIT8103 - Advanced Database Systems
 
 Case Study: NaijaOpenLearner Online Store
 
