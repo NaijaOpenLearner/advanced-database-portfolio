@@ -131,7 +131,7 @@ The practical therefore focused on demonstrating MongoDB's document model, flexi
 2. PostgreSQL Global Development Group. *PostgreSQL Documentation*.  
    https://www.postgresql.org/docs/current/
 
-3. MIVA Open University. *MIT8103 – Advanced Database Systems*. Course materials.
+3. MIVA Open University. *MIT8103 - Advanced Database Systems*. Course materials.
 
 ## 8. AI Assistance Declaration
 
