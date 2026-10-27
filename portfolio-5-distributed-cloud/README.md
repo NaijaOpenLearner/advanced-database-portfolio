@@ -181,7 +181,7 @@ Comparing primary and replica results also reinforced the importance of verifyin
 2. Neon. [Database branching workflow primer](https://neon.com/docs/get-started-with-neon/workflow-primer)
 3. Neon. [Introducing Same-Region Read Replicas to Serverless Postgres](https://neon.com/blog/introducing-same-region-read-replicas-to-serverless-postgres)
 4. Neon. [Our Approach to High Availability](https://neon.com/blog/our-approach-to-high-availability)
-5. MIVA Open University. MIT8103 – Advanced Database Systems course materials.
+5. MIVA Open University. MIT8103 - Advanced Database Systems course materials.
 
 ## 13. AI Assistance Declaration
 
